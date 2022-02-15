@@ -41,7 +41,7 @@ class ItemRepositoryTest {
         itemRepository.save(item2);
 
         //when
-        List<Item> result = itemRepository.findByAll();
+        List<Item> result = itemRepository.findAll();
 
         //then
         assertThat(result.size()).isEqualTo(2);

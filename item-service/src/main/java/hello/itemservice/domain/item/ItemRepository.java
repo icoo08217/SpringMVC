@@ -29,7 +29,7 @@ public class ItemRepository {
     }
 
     //전체 조회
-    public List<Item> findByAll() {
+    public List<Item> findAll() {
         return new ArrayList<>(store.values());
     }
 
